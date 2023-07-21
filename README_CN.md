@@ -1,6 +1,6 @@
 # Azukisan API - 一个简单的用来随机获取可爱小豆泥图片的网络API
 
-[EN](https://github.com/SuperLangdon/azukisan-api/README_EN.md) | 简体中文
+[EN](https://github.com/SuperLangdon/azukisan-api/blob/main/README_EN.md) | 简体中文
 
 ## 介绍
 
@@ -32,10 +32,10 @@ Base URL：https://api.example.com/azukisan
 | 字段   | 描述                                         |
 | ------ | -------------------------------------------- |
 | type   | 302 (默认)<br>json（支持跨域）                 |
-| site   | 施工中，暂未完成支持。 |
+| site   | ⚠️开发中，暂未完成支持。 |
 | size   | large（大尺寸图片，500\*500及以上分辨率）<br>small（小尺寸图片，500*500及以上分辨率）<br>all（全部）-（默认） |
 | proxy  | 1（使用反向代理）-（默认）<br>0（302返回源站链接） |
-| tag    | 无默认值<br>筛选指定分类的图片。<br>施工中，暂未完成支持。
+| tag    | 无默认值<br>筛选指定分类的图片。<br>⚠️开发中，暂未完成支持。
 
 ## 错误处理
 当 API 请求出错时，将返回适当的 HTTP 状态码和错误消息。

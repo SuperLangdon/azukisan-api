@@ -2,7 +2,7 @@
 
 # Azukisan API - a simple web API for randomly fetching adorable Azukisan images
 
-EN | [简体中文](https://github.com/SuperLangdon/azukisan-api/README_CN.md)
+EN | [简体中文](https://github.com/SuperLangdon/azukisan-api/blob/main/README_CN.md)
 
 ## Introduction
 
@@ -33,10 +33,10 @@ Response Format: JSON
 | Field  | Description                                   |
 | ------ | --------------------------------------------- |
 | type   | 302 (default)<br>json (supports CORS)         |
-| site   | Under construction, support not yet completed. |
-| size   | large (large-sized image, resolution 500*500 and above)<br>small (small-sized image, resolution 500*500 and above)<br>all (all) - (default) |
+| site   | ⚠️Under development, support not yet completed. |
+| size   | large (large-sized image, resolution 500\*500 and above)<br>small (small-sized image, resolution 500\*500 and above)<br>all (all) - (default) |
 | proxy  | 1 (use reverse proxy) - (default)<br>0 (302 returns the source link) |
-| tag    | No default value<br>Filter images by specified categories.<br>Under construction, support not yet completed. |
+| tag    | No default value<br>Filter images by specified categories.<br>⚠️Under development, support not yet completed. |
 
 ## Error Handling
 When an API request fails, it will return the appropriate HTTP status code and error message.
